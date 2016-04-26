@@ -22,5 +22,38 @@
         android:layout_marginTop="30dp"
         android:layout_marginBottom="30dp" />
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:layout_below="@+id/welcomebutton"
+        android:minWidth="500dp"
+        android:minHeight="500dp"
+        android:maxWidth="500dp"
+        android:maxHeight="500dp"
+        android:longClickable="false"
+        android:nestedScrollingEnabled="false"
+        android:layout_above="@+id/login_button"
+        android:visibility="visible" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/button"
+        android:layout_below="@+id/login_button"
+        android:layout_alignRight="@+id/login_button"
+        android:layout_alignEnd="@+id/login_button" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Small Text"
+        android:id="@+id/textView"
+        android:layout_below="@+id/button"
+        android:layout_toRightOf="@+id/welcomebutton"
+        android:layout_toEndOf="@+id/welcomebutton" />
+
 
 </RelativeLayout>
